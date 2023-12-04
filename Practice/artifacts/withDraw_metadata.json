@@ -1,0 +1,61 @@
+{
+	"compiler": {
+		"version": "0.8.18+commit.87f61d96"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"stateMutability": "payable",
+				"type": "fallback"
+			},
+			{
+				"inputs": [],
+				"name": "withdraw",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"stateMutability": "payable",
+				"type": "receive"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"Practice/withdraw.sol": "withDraw"
+		},
+		"evmVersion": "paris",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"Practice/withdraw.sol": {
+			"keccak256": "0x5037ee16f055f2f604f17b14061f5eb3862abf9cb0bd08ea44ff27673c6b502f",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://cfb059924d7aadba85de113551be2bf0f4fac3f6289cf115f9c4df3f1fa26533",
+				"dweb:/ipfs/QmNgGoe2sVPWu5RmoaEoWzernu8G9C8zF9BwsjLcyttrMd"
+			]
+		}
+	},
+	"version": 1
+}
